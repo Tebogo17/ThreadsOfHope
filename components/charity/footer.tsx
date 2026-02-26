@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowRight } from "lucide-react"
 
@@ -83,7 +81,7 @@ export function Footer() {
             <p className="text-sm text-white/60">
               Subscribe to our newsletter for the latest updates on our causes and events.
             </p>
-            <form className="mt-4 flex flex-col gap-3" onSubmit={(e) => e.preventDefault()}>
+            <form className="mt-4 flex flex-col gap-3" action="#">
               <input
                 type="email"
                 placeholder="Your Email"
