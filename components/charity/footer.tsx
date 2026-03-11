@@ -17,11 +17,12 @@ export function Footer() {
           {/* Column 1: Logo & Description */}
           <div>
             <Link href="/" className="text-2xl font-bold">
-              <span className="text-white">Charity</span>
-              <span className="text-orange">Help</span>
+              <span className="text-orange">Threads</span>
+              <span className="text-white">Of</span>
+              <span className="text-white">Hope</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo magna dolore erat amet.
+              Charity begins at home but should not end there.Giving to those in need will bring more joy than money could ever buy.
             </p>
             <div className="mt-5 flex gap-2">
               <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white/70 transition-colors hover:bg-orange hover:text-white" aria-label="Facebook">
@@ -45,15 +46,15 @@ export function Footer() {
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-orange" />
-                <span className="text-sm text-white/70">123 Street, New York, USA</span>
+                <span className="text-sm text-white/70">87 Hawk Cresc, Johannesburg, SA</span>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="mt-0.5 h-4 w-4 flex-shrink-0 text-orange" />
-                <span className="text-sm text-white/70">+012 345 67890</span>
+                <span className="text-sm text-white/70">+27 651 881 750</span>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 flex-shrink-0 text-orange" />
-                <span className="text-sm text-white/70">info@example.com</span>
+                <span className="text-sm text-white/70">threadsofhope.donations@gmail.com</span>
               </div>
             </div>
           </div>
@@ -75,11 +76,11 @@ export function Footer() {
             </nav>
           </div>
 
-          {/* Column 4: Newsletter */}
+          {/* Column 4: Linkedin */}
           <div>
-            <h3 className="mb-5 text-lg font-bold text-white">Newsletter</h3>
+            <h3 className="mb-5 text-lg font-bold text-white">Linkedin</h3>
             <p className="text-sm text-white/60">
-              Subscribe to our newsletter for the latest updates on our causes and events.
+              Follow to our Linkedin Channel for the latest updates on our causes and events.
             </p>
             <form className="mt-4 flex flex-col gap-3" action="#">
               <input
@@ -92,7 +93,7 @@ export function Footer() {
                 type="submit"
                 className="rounded-lg bg-orange px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-hover"
               >
-                Subscribe
+                Follow
               </button>
             </form>
           </div>
@@ -103,7 +104,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row">
           <p className="text-sm text-white/50">
-            &copy; 2026 CharityHelp. All rights reserved.
+            &copy; 2026 ThreadsOfHope. All rights reserved.
           </p>
           <div className="flex gap-5">
             <a href="#" className="text-sm text-white/50 transition-colors hover:text-orange">Privacy Policy</a>

@@ -3,30 +3,30 @@ import { ArrowRight } from "lucide-react"
 
 const causes = [
   {
-    tag: "Education",
-    title: "Education For African Children",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna.",
-    image: "/images/cause-education.jpg",
-    raised: "$1,240.00",
-    goal: "$2,500.00",
+    tag: "Children's Donation",
+    title: "Clothes & Food For Our Children",
+    description: "Supplying children with essential clothing to ensure warmth, protection, and confidence.",
+    image: "/images/Kids1.png",
+    //raised: "$1,240.00",
+    //goal: "$2,500.00",
     progress: 50,
   },
   {
-    tag: "Drinking Water",
-    title: "Donate For A Drinking Water",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna.",
-    image: "/images/cause-water.jpg",
-    raised: "$1,860.00",
-    goal: "$3,000.00",
+    tag: "Community Donation",
+    title: "Donate Clothes For Communities",
+    description: "Extending clothing assistance to vulnerable communities, offering relief and hope through one of life’s most basic necessities.",
+    image: "/images/Community.jpg",
+    //raised: "$1,860.00",
+    //goal: "$3,000.00",
     progress: 62,
   },
   {
-    tag: "Medical",
-    title: "Ensure Medical Treatment",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna.",
-    image: "/images/cause-medical.jpg",
-    raised: "$940.00",
-    goal: "$2,000.00",
+    tag: "Old Age Home",
+    title: "Ensure Food & Clothes are Provided",
+    description: "Supporting old age homes with appropriate clothing to enhance the well-being of the elderly.",
+    image: "/images/Old.jpg",
+    //raised: "$940.00",
+    //goal: "$2,000.00",
     progress: 47,
   },
 ]
@@ -39,7 +39,7 @@ export function CausesSection() {
         <div className="mx-auto mb-14 max-w-xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-orange">Feature Causes</span>
           <h2 className="mt-3 text-balance text-3xl font-bold leading-tight text-foreground md:text-4xl">
-            Every Child Deserves The Opportunity To Learn
+            Everyone deserves the dignity of being clothed and nourished.
           </h2>
         </div>
 

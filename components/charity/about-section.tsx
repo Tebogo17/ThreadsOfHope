@@ -36,13 +36,13 @@ export function AboutSection() {
             {/* Quote Box */}
             <div className="mt-6 border-l-4 border-orange pl-5">
               <p className="text-pretty leading-relaxed text-muted-foreground">
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet.
+                In the long term, Threads of Hope aims to grow into a registered NGO supporting underprivileged children and families.
               </p>
-              <p className="mt-3 font-semibold text-orange">Jhon Doe, Founder</p>
+              <p className="mt-3 font-semibold text-orange">Onthatile Mabelane, Founder</p>
             </div>
 
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.
+              Threads of Hope was born out of a simple desire to make a difference. What started as a small collection of donated clothes has blossomed into a community driven initiative that has touched countless lives. Our mission is to provide warmth, dignity, and hope to those in need, one thread at a time.
             </p>
 
             {/* Buttons */}

@@ -24,11 +24,11 @@ export function Header() {
           <div className="hidden items-center gap-4 md:flex">
             <span className="flex items-center gap-1 text-white/80">
               <MapPin className="h-3.5 w-3.5" />
-              123 Street, New York, USA
+              87 Hawk Cresc, Johannesburg, SA
             </span>
             <span className="flex items-center gap-1 text-white/80">
               <Mail className="h-3.5 w-3.5" />
-              info@example.com
+              threadsofhope.donations@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-1">
@@ -60,8 +60,9 @@ export function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center text-2xl font-bold">
-            <span className="text-white">Charity</span>
-            <span className="text-orange">Help</span>
+            <span className="text-orange">Threads </span>
+            <span className="text-white"> OF </span>
+            <span className="text-orange">Hope</span>
           </Link>
 
           {/* Desktop Navigation */}

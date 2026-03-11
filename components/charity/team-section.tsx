@@ -3,24 +3,45 @@ import { Facebook, Twitter, Linkedin } from "lucide-react"
 
 const team = [
   {
-    name: "David Walker",
+    name: "Onthatile Mabelane",
     role: "CEO & Founder",
-    image: "/images/team-1.jpg",
+    image: "/images/Ontha.jpeg",
   },
   {
-    name: "Sarah Johnson",
-    role: "Program Director",
-    image: "/images/team-2.jpg",
+    name: "Sarletta Mokhine",
+    role: "Deputy Chairperson / PR & Media Officer",
+    image: "/images/Sally.jpeg",
   },
   {
-    name: "Emily Davis",
-    role: "Operations Manager",
-    image: "/images/team-3.jpg",
+    name: "Mamello Masolane",
+    role: "Secretary General",
+    image: "/images/Mamello.jpeg",
   },
   {
-    name: "James Wilson",
-    role: "Community Lead",
-    image: "/images/team-4.jpg",
+    name: "Phila Ndlovu",
+    role: "Treasurer",
+    image: "/images/Phila.jpeg",
+  },
+  {
+    name: "Mfundo Nkosi",
+    role: "Donations Coordinator/Logistics Officer",
+    image: "/images/Mfundo.jpeg",
+  },
+  
+  {
+    name: "Klaas Lekalakala",
+    role: "Sponsorship Officer",
+    image: "/images/Klaas.jpeg",
+  },
+  {
+    name: "Nqobani Ngobese",
+    role: "Software Developer ",
+    image: "/images/Tebogo.jpg",
+  },
+  {
+    name: "Tebogo Mashabane",
+    role: "Software Developer ",
+    image: "/images/Tebogo.jpg",
   },
 ]
 
@@ -31,7 +52,7 @@ export function TeamSection() {
         {/* Section Header */}
         <div className="mx-auto mb-14 max-w-xl text-center">
           <h2 className="text-balance text-3xl font-bold leading-tight text-foreground md:text-4xl">
-            {"Let's Meet With Our Ordinary Soldiers"}
+            {"Let's Meet With Our Soldiers"}
           </h2>
         </div>
 
@@ -43,7 +64,7 @@ export function TeamSection() {
               className="group overflow-hidden rounded-xl bg-card text-center shadow-md transition-shadow hover:shadow-xl"
             >
               {/* Image */}
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-85 overflow-hidden">
                 <Image
                   src={member.image}
                   alt={`${member.name}, ${member.role}`}

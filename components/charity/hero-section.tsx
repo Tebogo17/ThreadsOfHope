@@ -20,12 +20,12 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 text-center">
         <h1 className="text-balance text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-          {"Let's Change The World"}
+          {"Let's Change The Lives Together"}
           <br />
           With Humanity
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/80 md:text-lg">
-          Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet
+          The initiatives focuses particularly on supporting children in care facilities and individuals experiencing homelessness by providing essential items and practical support.
         </p>
         <a
           href="#about"

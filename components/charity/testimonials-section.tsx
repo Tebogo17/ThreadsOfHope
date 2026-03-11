@@ -20,15 +20,18 @@ export function TestimonialsSection() {
               ))}
             </div>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              {'"'}Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. This organization changed our community for the better and we are incredibly grateful for their work.{'"'}
+              {'"'}Threads of Hope is more than just an organization; it is a movement powered by people who care. Through the dedication of our team, volunteers, and supporters, we continue to create meaningful impact and bring hope where it is needed most.I invite you to join us in this mission. Together, we can take steps that lead to brighter futures and stronger communities.{'"'}
+              <br></br>
+              <br></br>
+              Thank you for being part of the journey.
             </p>
             <div className="mt-6 flex items-center gap-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-orange text-lg font-bold text-white">
-                M
+                S
               </div>
               <div>
-                <p className="font-bold text-foreground">Maria Thompson</p>
-                <p className="text-sm text-muted-foreground">Community Partner</p>
+                <p className="font-bold text-foreground">Sarletta Mokhine</p>
+                <p className="text-sm text-muted-foreground">Deputy Chairperson / PR & Media Officer</p>
               </div>
             </div>
           </div>

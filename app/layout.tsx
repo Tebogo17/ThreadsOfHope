@@ -15,9 +15,9 @@ const _merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: 'CharityHelp - Let\'s Change The World With Humanity',
-  description: 'CharityHelp is a nonprofit organization dedicated to helping people in need around the world. Support child education, clean water, and medical treatment.',
-  generator: 'v0.app',
+  title: 'Threads Of Hope - Let\'s Change South Africa  With Humanity',
+  description: 'Threads of is a nonprofit organization dedicated to helping people in need around the South Africa. Support child education, clean water, and medical treatment.',
+  generator: 'TOH.app',
   icons: {
     icon: [
       {

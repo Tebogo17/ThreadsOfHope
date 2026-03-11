@@ -1,20 +1,20 @@
-import { BookOpen, Stethoscope, Droplets } from "lucide-react"
+import { Footprints, HeartHandshake, Users } from "lucide-react"
 
 const services = [
   {
-    icon: BookOpen,
-    title: "Child Education",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna dolore.",
+    icon: Footprints,
+    title: "Children's Donation",
+    description: "Providing clothes and shoes to children so they can walk safely to school and participate in daily activities with confidence",
   },
   {
-    icon: Stethoscope,
-    title: "Medical Treatment",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna dolore.",
+    icon: HeartHandshake,
+    title: "Community Donation",
+    description: "Organizing donation drives and community programs that provide essential support to underserved families.",
   },
   {
-    icon: Droplets,
-    title: "Pure Drinking Water",
-    description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit duo justo magna dolore.",
+    icon: Users,
+    title: "Old Age Home",
+    description: "Delivering comfort and care to senior citizens through footwear donations and community support initiatives.",
   },
 ]
 
