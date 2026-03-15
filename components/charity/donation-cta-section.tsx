@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 
 const stats = [
-  { label: "Total Donors", value: 1250 },
-  { label: "Fund Raised", value: 415 },
+  { label: "People Reached", value: 1250 },
+  { label: "People Supported", value: 415 },
   { label: "Happy Volunteers", value: 980 },
 ]
 
@@ -59,7 +59,7 @@ export function DonationCTASection() {
               Thanks For The Results Achieved With You
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-white/70">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.
+              At Threads of Hope, every donation helps us support the people who need it most. From uplifting communities, supporting children with essential resources, to caring for the elderly in old age homes, your generosity allows us to bring hope, dignity, and support where it matters most.
             </p>
 
             {/* Stats */}
