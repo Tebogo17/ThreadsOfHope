@@ -6,6 +6,7 @@ const team = [
     name: "Onthatile Mabelane",
     role: "CEO & Founder",
     image: "/images/Ontha.jpeg",
+    Linkedin : "https://www.linkedin.com/in/onthatile-mabelane-5b313a20a?trk=contact-info",
   },
   {
     name: "Sarletta Mokhine",
