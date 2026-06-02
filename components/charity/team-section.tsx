@@ -42,7 +42,7 @@ const team = [
     name: "Tebogo Mashabane",
     role: "Software Developer ",
     image: "/images/Tebogo.jpg",
-    linkedin: "https://www.linkedin.com/in/tebogo-nelson-62a324275",
+    Linkedin: "https://www.linkedin.com/in/tebogo-nelson-62a324275",
   },
 ]
 
