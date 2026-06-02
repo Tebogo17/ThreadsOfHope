@@ -81,7 +81,7 @@ export function TeamSection() {
                     <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s Twitter`}>
                       <Twitter className="h-4 w-4" />
                     </a>
-                    <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s LinkedIn`}>
+                    <a href="https://www.linkedin.com/in/tebogo-nelson-62a324275" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s LinkedIn`}>
                       <Linkedin className="h-4 w-4" />
                     </a>
                   </div>
