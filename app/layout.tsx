@@ -3,6 +3,7 @@ import { Open_Sans, Merriweather } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
+
 const _openSans = Open_Sans({
   subsets: ['latin'],
   variable: '--font-open-sans',
@@ -21,11 +22,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/logo_32x32.jpeg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/logo_dark_32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
       {

@@ -31,7 +31,7 @@ export function Footer() {
               <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white/70 transition-colors hover:bg-orange hover:text-white" aria-label="Twitter">
                 <Twitter className="h-4 w-4" />
               </a>
-              <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white/70 transition-colors hover:bg-orange hover:text-white" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/threads-of-hope-drive/" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white/70 transition-colors hover:bg-orange hover:text-white" aria-label="LinkedIn">
                 <Linkedin className="h-4 w-4" />
               </a>
               <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white/70 transition-colors hover:bg-orange hover:text-white" aria-label="Instagram">

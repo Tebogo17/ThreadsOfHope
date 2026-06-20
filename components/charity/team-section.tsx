@@ -6,16 +6,19 @@ const team = [
     name: "Onthatile Mabelane",
     role: "CEO & Founder",
     image: "/images/Ontha.jpeg",
+    linkedin : "https://www.linkedin.com/in/onthatile-mabelane-5b313a20a?trk=contact-info",
   },
   {
     name: "Sarletta Mokhine",
     role: "Deputy Chairperson / PR & Media Officer",
     image: "/images/Sally.jpeg",
-  },
+    linkedin : "https://www.linkedin.com/in/sarlettah-mokhine-459453272/",
+  },  
   {
     name: "Mamello Masolane",
     role: "Secretary General",
     image: "/images/Mamello.jpeg",
+    linkedin : "https://www.linkedin.com/in/mamello-masolane-0a8062237?trk=contact-info",
   },
   {
     name: "Phila Ndlovu",
@@ -26,12 +29,7 @@ const team = [
     name: "Mfundo Nkosi",
     role: "Donations Coordinator/Logistics Officer",
     image: "/images/Mfundo.jpeg",
-  },
-  
-  {
-    name: "Klaas Lekalakala",
-    role: "Sponsorship Officer",
-    image: "/images/Klaas.jpeg",
+    linkedin: "https://www.linkedin.com/in/mfundo-nkosi-b4000a284/",
   },
   {
     name: "Nqobani Ngobese",
@@ -42,6 +40,7 @@ const team = [
     name: "Tebogo Mashabane",
     role: "Software Developer ",
     image: "/images/Tebogo.jpg",
+    linkedin: "https://www.linkedin.com/in/tebogo-nelson-62a324275",
   },
 ]
 
@@ -80,7 +79,7 @@ export function TeamSection() {
                     <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s Twitter`}>
                       <Twitter className="h-4 w-4" />
                     </a>
-                    <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s LinkedIn`}>
+                    <a href={member.linkedin} className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-teal transition-colors hover:bg-orange hover:text-white" aria-label={`${member.name}'s LinkedIn`}>
                       <Linkedin className="h-4 w-4" />
                     </a>
                   </div>

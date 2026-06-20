@@ -24,7 +24,7 @@ export function Header() {
           <div className="hidden items-center gap-4 md:flex">
             <span className="flex items-center gap-1 text-white/80">
               <MapPin className="h-3.5 w-3.5" />
-              87 Hawk Cresc, Johannesburg, SA
+              21 Junction Ave, Parktown, Johannesburg, SA
             </span>
             <span className="flex items-center gap-1 text-white/80">
               <Mail className="h-3.5 w-3.5" />
