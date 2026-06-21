@@ -26,12 +26,12 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/logo_dark_32x32.png',
+        url: '/logo_32x32.jpeg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/logo_32x32.jpeg',
+        type: 'image/jpeg+xml',
       },
     ],
     apple: '/apple-icon.png',

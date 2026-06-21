@@ -32,11 +32,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/mfundo-nkosi-b4000a284/",
   },
   {
-    name: "Nqobani Ngobese",
-    role: "Software Developer ",
-    image: "/images/Tebogo.jpg",
-  },
-  {
     name: "Tebogo Mashabane",
     role: "Software Developer ",
     image: "/images/Tebogo.jpg",

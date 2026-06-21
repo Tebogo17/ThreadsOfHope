@@ -39,7 +39,7 @@ export function Header() {
             <Link href="#" className="rounded-full p-1.5 text-white/70 transition-colors hover:text-white" aria-label="Twitter">
               <Twitter className="h-3.5 w-3.5" />
             </Link>
-            <Link href="#" className="rounded-full p-1.5 text-white/70 transition-colors hover:text-white" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/company/threads-of-hope-drive/" className="rounded-full p-1.5 text-white/70 transition-colors hover:text-white" aria-label="LinkedIn">
               <Linkedin className="h-3.5 w-3.5" />
             </Link>
             <Link href="#" className="rounded-full p-1.5 text-white/70 transition-colors hover:text-white" aria-label="Instagram">
